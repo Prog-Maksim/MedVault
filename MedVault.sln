@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedVault", "MedVault\MedVault.csproj", "{A7D129CA-985D-4982-BB33-C82B5489A48A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedVaultBackend", "MedVaultBackend\MedVaultBackend.csproj", "{E66A752D-839F-4AFD-B6AC-4C05489D86FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7D129CA-985D-4982-BB33-C82B5489A48A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D129CA-985D-4982-BB33-C82B5489A48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D129CA-985D-4982-BB33-C82B5489A48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D129CA-985D-4982-BB33-C82B5489A48A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E66A752D-839F-4AFD-B6AC-4C05489D86FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E66A752D-839F-4AFD-B6AC-4C05489D86FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E66A752D-839F-4AFD-B6AC-4C05489D86FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E66A752D-839F-4AFD-B6AC-4C05489D86FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
