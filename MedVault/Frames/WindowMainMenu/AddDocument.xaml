@@ -1,0 +1,53 @@
+﻿<Page x:Class="MedVault.Frames.WindowMainMenu.AddDocument"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d"
+      Title="AddDocument"
+      d:DesignWidth="950"
+      d:DesignHeight="650"
+      Background="Transparent">
+    <Border 
+        Background="White"
+        CornerRadius="20 0 0 0">
+        <Grid Margin="50 30 50 50" ShowGridLines="True">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            
+            <TextBlock
+                Grid.Row="0"
+                Text="Заполните данные о документе"
+                FontFamily="Montserrat"
+                FontSize="20"
+                FontWeight="Bold"
+                Foreground="#7927E0"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left">
+            </TextBlock>
+            
+            <WrapPanel
+                x:Name="MainSection"
+                Grid.Row="1">
+                
+            </WrapPanel>
+            
+            <Button
+                Grid.Row="2"
+                Style="{StaticResource ButtonBaseStyle}"
+                Width="185"
+                Height="40"
+                Click="ButtonBase_OnClick"
+                Content="Добавить"
+                Background="#7927E0"
+                Foreground="White"
+                Margin="0 30 0 0"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Right">
+            </Button>
+        </Grid>
+    </Border>
+</Page>

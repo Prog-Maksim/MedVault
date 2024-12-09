@@ -1,0 +1,52 @@
+﻿<Page x:Class="MedVault.Frames.MainMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d"
+      Title="MainMenu" 
+      d:DesignWidth="1200"
+      d:DesignHeight="720"
+      Background="#E2E5F3">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition 
+                Width="0.2*"
+                MinWidth="180"
+                MaxWidth="230">
+            </ColumnDefinition>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <TextBlock
+            Grid.Row="0"
+            Grid.Column="0"
+            Text="MedVault"
+            FontSize="30"
+            FontFamily="Montserrat"
+            FontWeight="Black"
+            Foreground="#7927E0"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center">
+        </TextBlock>
+        
+        <StackPanel
+            Margin="0 15 0 0"
+            x:Name="StackPanelMenuButtons"
+            Grid.Row="1"
+            Grid.Column="0">
+        </StackPanel>
+        
+        <Frame
+            Grid.Row="1"
+            Grid.Column="1"
+            Source="WindowMainMenu/SearchDocument.xaml"
+            NavigationUIVisibility="Hidden">
+        </Frame>
+    </Grid>
+</Page>
